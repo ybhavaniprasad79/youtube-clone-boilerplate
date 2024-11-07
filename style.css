@@ -1,0 +1,43 @@
+* {
+  background-color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid white;
+}
+nav .logo_ham {
+  display: flex;
+  margin: 5px;
+}
+nav .search_bar {
+  display: flex;
+  margin: 5px;
+}
+nav .profile {
+  display: flex;
+  margin: 5px;
+}
+
+aside div {
+  color: white;
+}
+aside {
+  border: 1px solid white;
+  width: 200px;
+  height: 800px;
+  padding: 10px 2%;
+  box-shadow: 0 0 10px rgb(121, 121, 121);
+}
+main {
+  display: flex;
+}
+section {
+  color: white;
+}
+@media (min-width=600px) {
+  body {
+    width: 100%;
+    display: flex;
+  }
+}
